@@ -1,0 +1,152 @@
+/* Fondo y overlay */
+.hero {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  min-height: 100vh;
+  padding-top: 80px;
+}
+
+/* Menú superior */
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(6px);
+  z-index: 10;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-links a {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffd700;
+}
+
+.btn-join {
+  background-color: #ffd700;
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+/* Hero box */
+.hero-box {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero-sub {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: transparent; /* el texto será transparente */
+  background: linear-gradient(135deg, #f5b04c, #ffd700, #c7771a);
+  -webkit-background-clip: text; /* Safari/Chrome */
+  background-clip: text; /* estándar */
+  text-shadow: 0 2px 6px rgba(0,0,0,0.5); /* brillo sutil */
+}
+
+.hero-text {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Botones principales */
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-main,
+.btn-alt {
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn-main {
+  background-color: #ffd700;
+  color: #000;
+}
+
+.btn-alt {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn-alt:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Contador */
+.countdown {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+/* Redes sociales */
+.socials {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+
+/* WhatsApp flotante */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  padding: 0.8rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  z-index: 20;
+}
+.hero-title {
+  font-size: 3.2rem;
+  font-weight: 800;
+  margin: 15px 0;
+  background: linear-gradient(135deg, #f5b04c, #ffd700, #c7771a);
+  -webkit-background-clip: text; /* Safari/Chrome */
+  background-clip: text; /* estándar */
+  text-shadow: 0 2px 8px rgba(0,0,0,0.6); /* brillo sutil */
+}
